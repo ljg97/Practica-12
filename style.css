@@ -1,0 +1,47 @@
+body{
+    background-color: #C1DDE8;
+}
+.S{
+    color: black;
+    font-size: 100px;
+}
+span.nav:hover{
+    color: red;
+    background-color: yellow;
+}
+img{
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+a.enl{
+    font-size: larger;
+}
+a.enl:visited{
+    color: white;
+    background-color: blue;
+}
+a.enl:link{
+    background-color: white;
+    color: blue;
+}
+header{
+    font-size: xx-large;
+}
+nav{
+    font-size: x-large;
+}
+header,nav{
+    text-align: center;
+    color: blue;
+}
+p.r::first-line{
+    color: red;
+}
+hr + section  p{
+    color: black;
+    font-weight: bold;
+}
+footer{
+    font-style: italic;
+}
